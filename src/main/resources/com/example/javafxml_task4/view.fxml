@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="559.0" prefWidth="727.0" style="-fx-background-color: #2b2929;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxml_task4.view_controller">
+   <children>
+      <TabPane layoutX="24.0" layoutY="94.0" prefHeight="434.0" prefWidth="684.0" style="-fx-background-color: #2b2929;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Queue 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table" layoutX="5.0" prefHeight="432.0" prefWidth="684.0">
+                           <columns>
+                              <TableColumn fx:id="fname" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="sname" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnum" prefWidth="175.11114501953125" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuel" prefWidth="167.99993896484375" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Queue 2">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table2" layoutX="-2.0" layoutY="-2.0" prefHeight="436.0" prefWidth="691.0">
+                           <columns>
+                              <TableColumn fx:id="fname2" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="sname2" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnum2" prefWidth="175.11114501953125" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuel2" prefWidth="167.99993896484375" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Queue 3">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table3" layoutX="2.0" prefHeight="390.0" prefWidth="692.0">
+                           <columns>
+                              <TableColumn fx:id="fname3" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="sname3" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnum3" prefWidth="175.11114501953125" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuel3" prefWidth="167.99993896484375" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Queue 4">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table4" prefHeight="390.0" prefWidth="694.0">
+                           <columns>
+                              <TableColumn fx:id="fname4" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="sname4" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnum4" prefWidth="175.11114501953125" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuel4" prefWidth="167.99993896484375" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Queue 5">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="table5" prefHeight="390.0" prefWidth="694.0">
+                           <columns>
+                              <TableColumn fx:id="fname5" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="sname5" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnum5" prefWidth="175.11114501953125" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuel5" prefWidth="167.99993896484375" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Waiting list">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tablewait" layoutX="-4.0" layoutY="-3.0" prefHeight="436.0" prefWidth="692.0">
+                           <columns>
+                              <TableColumn fx:id="fnamewait" prefWidth="165.33330535888672" style="-fx-background-color: #e6dfdf;" text="First name" />
+                              <TableColumn fx:id="snamewait" prefWidth="184.888916015625" style="-fx-background-color: #e6dfdf;" text="Second name" />
+                              <TableColumn fx:id="vehnumwait" prefWidth="168.88885498046875" style="-fx-background-color: #e6dfdf;" text="Vehicle number" />
+                              <TableColumn fx:id="amt_fuelwait" prefWidth="169.77783203125" style="-fx-background-color: #e6dfdf;" text="Amount of fuel" />
+                           </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <TextField fx:id="searchbox" layoutX="257.0" layoutY="32.0" prefHeight="32.0" prefWidth="364.0" />
+      <Label layoutX="124.0" layoutY="32.0" prefHeight="32.0" prefWidth="71.0" text="Search :" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
